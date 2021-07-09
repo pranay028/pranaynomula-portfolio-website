@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pranay Nomula</title>
-    <link rel="stylesheet" href="./styles-main.css" />
-    <link rel="stylesheet" href="./styles-contact.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
@@ -14,7 +14,10 @@
     <script defer src="script.js"></script>
   </head>
   <body>
-    <div class="section" id="main-section">
+    <!-- ----------------- -->
+    <!------------------------------- Landing Section -------------------------->
+    <!-- ----------------- -->
+    <section class="section" id="main-section">
       <div class="header-text">
         <p>
           Hello, <br />
@@ -38,8 +41,12 @@
           <i class="fas fa-arrow-down"></i>
         </div>
       </div>
-    </div>
-    <div class="section" id="contact-page">
+    </section>
+
+    <!-- ----------------- -->
+    <!------------------------------- Contact Section -------------------------->
+    <!-- ----------------- -->
+    <section class="section" id="contact-page">
       <div class="contact-top">
         <p class="heading-text">Contact Me</p>
         <p class="email-title">Email Id:</p>
@@ -60,6 +67,87 @@
           blanditiis, neque aspernatur animi debitis?
         </p>
       </div>
-    </div>
+    </section>
+    <!-- ----------------- -->
+    <!------------------------------- Bio Section -------------------------->
+    <!-- ----------------- -->
+    <section class="section" id="bio-page">
+      <div class="heading-cont">
+        <p class="heading-text">My Bio</p>
+      </div>
+      <div class="bio-container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+        itaque ipsum maxime. Id earum exercitationem nesciunt sunt quam! Rem,
+        minus?
+      </div>
+    </section>
+    <!-- ----------------- -->
+    <!------------------------------- Projects Section -------------------------->
+    <!-- ----------------- -->
+    <section class="section" id="projects-page">
+      <div class="heading-cont">
+        <p class="heading-text">Projects</p>
+      </div>
+      <div class="projects-list">
+        <!-- ----------------- -->
+        <!------------------------------- project 1 -------------------------->
+        <!-- ----------------- -->
+        <div class="project project-1" id="project-1">
+          <div class="project-name">
+            <p>Weather App</p>
+            <i class="fas fa-chevron-circle-down details-arrow"></i>
+          </div>
+          <div class="project-details">
+            <div class="project-images">
+              <button class="carousel-btn">
+                <i class="fas fa-chevron-left left-btn"></i>
+              </button>
+              <div class="carousel-track-container">
+                <ul class="carousel-track">
+                  <li class="carousel-slides">
+                    <img
+                      class="cau-image"
+                      src="images/weather-app/weather-main-page.JPG"
+                      alt=""
+                    />
+                  </li>
+                  <li class="carousel-slides">
+                    <img
+                      class="cau-image"
+                      src="./images/weather-app/weather-forecast-details.JPG"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+              <button class="carousel-btn">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            <div class="project-description">
+              <p class="description">Description:</p>
+              <p class="desc-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                nisi earum ex ad voluptatibus quam nihil perspiciatis, magnam
+                nemo qui?
+              </p>
+              <div class="gn-links">
+                <p>github</p>
+                <p>website</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ----------------- -->
+      <!----------------------------------- project 2 ---------------------->
+      <!-- ----------------- -->
+      <div class="project project-2" id="project-2">
+        <div class="project-name">
+          <p>Calculator App</p>
+          <i class="fas fa-chevron-circle-down details-arrow"></i>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
